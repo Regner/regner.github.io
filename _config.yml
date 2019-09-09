@@ -1,1 +1,30 @@
-theme: jekyll-theme-minimal
+name: "regnerba.com"
+author: "Regner Blok-Andersen"
+description: "Blog for Regner Blok-Andersen"
+url: http://regnerba.com
+enforce_ssl: https://regnerba.com
+footer-links:
+  email: shadowdf@gmail.com
+  github: regner
+  linkedin: 
+permalink: /:title/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+sass:
+  style: :compressed
+plugins:
+  - jekyll-sitemap 
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+paginate: 6
+paginate_path: /page:num/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
