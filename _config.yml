@@ -1,12 +1,12 @@
 name: "regnerba.com"
 author: "Regner Blok-Andersen"
-description: "Blog for Regner Blok-Andersen"
+description: "Ramblings, mostly about my home lab"
 url: http://regnerba.com
 enforce_ssl: https://regnerba.com
 footer-links:
   email: shadowdf@gmail.com
   github: regner
-  linkedin: 
+  linkedin: regerblokandersen
 permalink: /:title/
 kramdown:
   input: GFM
