@@ -20,6 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+include: ['_pages']
 paginate: 6
 paginate_path: /page:num/
 exclude:
